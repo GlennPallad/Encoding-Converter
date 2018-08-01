@@ -60,7 +60,7 @@ convertAll(items)
 if not_converted_log == '':
 	print('All files converted!')
 else:
-	output_log = ('Files converted:\n' + converted_log + '\nFiles didn\'t converted:\n' + not_converted_log)
+	output_log = ('Files converted:\n' + converted_log + '\nFiles didn\'t convert:\n' + not_converted_log)
 	file_object = open('EncodingConvert.log', 'w+b')
 	file_object.write(output_log.encode('utf-8'))
 	file_object.close()

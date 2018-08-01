@@ -59,7 +59,7 @@ python EncodingConverter.py
 For the example above, you'll see this
 ```
 python EncodingConverter.py
-Files didn't converted:
+Files didn't convert:
 ./A/A.1/A.1.txt
 ```
 The reason why `./A/A.1/A.1.txt` didn't converted is it's not a `GB2312` encoding file(it's a `UTF-8` encoding file), so it was ignored during converting.
@@ -122,7 +122,7 @@ python EncodingConverter.py
 对于上面的例子，你会看到
 ```
 python EncodingConverter.py
-Files didn't converted:
+Files didn't convert:
 ./A/A.1/A.1.txt
 ```
 `./A/A.1/A.1.txt` 没被转换的原因是它不是你所指定的 `GB2312` 编码文件所以程序会忽略它。
