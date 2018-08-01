@@ -5,10 +5,16 @@ sourceEncoding = 'gb2312'
 targetEncoding = 'utf-8'
 currPath = '.'
 extension = ''
+not_converted_log = ''
 
 def encodeConvert(filename, targetEncoding):
-	file_object = open(filename, 'r', encoding = sourceEncoding)
-	contents = file_object.read()
+	global not_converted_log
+	try:
+		file_object = open(filename, 'r', encoding = sourceEncoding)
+		contents = file_object.read()
+	except UnicodeDecodeError:
+		not_converted_log = not_converted_log + filename + '\n'
+		return None
 	file_object.close()
 	encoded_contents = contents.encode(targetEncoding)
 	file_object = open(filename, 'w+b')
@@ -40,3 +46,7 @@ def convertAll(items):
 			pass
 # pdb.set_trace()
 convertAll(items)
+if not_converted_log == '':
+	print('All files converted!')
+else:
+	print('Files didn\'t converted:\n' + not_converted_log)
