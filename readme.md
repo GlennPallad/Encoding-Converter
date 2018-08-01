@@ -62,7 +62,7 @@ python EncodingConverter.py
 Files didn't converted:
 ./A/A.1/A.1.txt
 ```
-The reason why `./A/A.1/A.1.txt` didn't converted is because it's not a `GB2312` encoding file(it's a `UTF-8` encoding file), so it was ignored during converting.
+The reason why `./A/A.1/A.1.txt` didn't converted is it's not a `GB2312` encoding file(it's a `UTF-8` encoding file), so it was ignored during converting.
 
 # zh_CN
 ## <font style="color: #E91E63">!!! 警告 !!!</font> 
