@@ -68,7 +68,7 @@ The reason why `./A/A.1/A.1.txt` didn't converted is it's not a `GB2312` encodin
 
 # zh_CN
 ## <font style="color: #E91E63">!!! 警告 !!!</font> 
-改程序将直接修改你的 <b style="color: #E91E63">源文件</b>, 使用前请务必 <b style="color: #E91E63">备份</b> 你的源文件.
+该程序将直接修改你的 <b style="color: #E91E63">源文件</b>, 使用前请务必 <b style="color: #E91E63">备份</b> 你的源文件.
 
 ## 使用
 ### 你需要的工具:
