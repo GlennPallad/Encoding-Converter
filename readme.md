@@ -112,7 +112,7 @@ Example(folder)
 	└─ EncodingCoverter.py
 ```
 
-2. 打开 `EncodingCoverter.py` 文件, 编辑 `第4行`(原来的编码) 和 `第五行`(想要的编码) 来满足你的需要。
+2. 打开 `EncodingCoverter.py` 文件, 编辑 `第4行`(原来的编码) 和 `第5行`(想要的编码) 来满足你的需要。
 编辑 `第35行`添加或删除文件扩展名，比方说你的项目文件中有一些 `GB2312` 编码的 `.js` 文件你想改为 `UTF-8` 编码，你可以将这行代码修改为
 ```
 if extension == '.h' or extension == '.c' or extension == '.cpp' or extension == '.txt' or extension == '.js':
