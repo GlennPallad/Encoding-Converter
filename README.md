@@ -1,17 +1,13 @@
-* [en_US](#en_us)
-* [zh_CN](#zh_cn)
-
-# en_US
 ## <font style="color: #E91E63">!!! CAUTION !!!</font> 
 This program will directly modifies your <b style="color: #E91E63">SOURCE FILES WITHOUT COPY</b>, so make sure to <b style="color: #E91E63">BACK UP</b> before using.
 
-## Usage
-### Tools you will need:
+# Usage
+## Prerequisite
 * Make sure you have [Python 3](https://www.python.org/downloads/) installed already.
 * (Optional) A user-friendly terminal(e.g. [Cmder](http://cmder.net/)).
 * (Optional) [Notepad++](https://notepad-plus-plus.org/)
 
-### What's it for?
+## What's it for?
 So let's say you have a messy project folder named **Example** like this:
 ```
 Example(folder)
@@ -29,7 +25,7 @@ Example(folder)
 ```
 And you wanna convert all `GB2312` encoded text files under **Example** folder(including subfolders) to `UTF-8` encoding, these files have different extension names(for example`.c` `.txt`), and there are already some files was encoded in `UTF-8`. I know many editors(e.g. [Notepad++](https://notepad-plus-plus.org/)) have the function of converting files encoding, but you don't wanna do 'open-convert-save' job one by one right? So let's do it only once.
 
-### How to use it?
+## Usage
 1. Place `EncodingCoverter.py` under your project folder, for example above, it will looks like this:
 ```
 Example(folder)
