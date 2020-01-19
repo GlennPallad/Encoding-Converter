@@ -65,7 +65,3 @@ Files didn't convert:
 ./A/A.1/A.1.txt
 ```
 The reason why `./A/A.1/A.1.txt` didn't convert is it's not a `GB2312` encoding file(it's a `UTF-8` encoding file), so it was ignored during converting.
-
-# zh_CN
-## <font style="color: #E91E63">!!! 警告 !!!</font> 
-该程序将直接修改你的 <b style="color: #E91E63">源文件</b>, 使用前请务必 <b style="color: #E91E63">备份</b> 你的源文件.
